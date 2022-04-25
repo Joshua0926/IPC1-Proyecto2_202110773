@@ -1,0 +1,30 @@
+body{
+    height: 100%;
+    background-image: url("https://img.redbull.com/images/c_fill,w_1200,h_630,g_auto,f_auto,q_auto/redbullcom/2016/09/20/1331818966444_2/pok%C3%A9mon-super-mystery-dungeon") ;
+    background-size: 100% 100%;
+}
+
+.card{
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: hsla(205, 46%, 30%, 1);
+    background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+}
+.card h1,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+
+.pokemon{
+    height: 115px;
+    width: 300px;
+}

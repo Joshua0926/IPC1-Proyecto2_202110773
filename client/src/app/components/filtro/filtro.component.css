@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    background-color: #15181f;
+    color: #666;
+    min-height: 230vh;
+    background-image: url("https://static.thenounproject.com/png/227406-200.png") ;
+}
+
+.pokedex{
+    height: 200px;
+    width: 400px;
+   
+
+}
+
+
+.container{
+    
+    width: 100%;
+    
+    
+   
+    align-items: center;
+    
+    color: white;
+    overflow: hidden;
+    
+
+}
+
+.container div{
+    
+   display: inline-flex;
+    margin: 25px;
+}

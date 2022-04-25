@@ -1,0 +1,93 @@
+*{
+    color: black;
+}
+
+
+
+
+.card__bg{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    color: white;
+    height: 130px;
+    z-index: 1
+}
+.card__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 10;
+}
+
+.card__img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 10;
+}
+
+.card__img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+.card1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden
+}
+
+.card2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden
+}
+
+.card3{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color: rgba(253, 24, 24, 0.884);
+    border-radius: 20px;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden
+}
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <img class="pokedex" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fee70897-c239-4e47-804e-8d7f86bb27b2/d5knqop-01380e8f-e033-4641-b32b-b34081c597ad.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZlZTcwODk3LWMyMzktNGU0Ny04MDRlLThkN2Y4NmJiMjdiMlwvZDVrbnFvcC0wMTM4MGU4Zi1lMDMzLTQ2NDEtYjMyYi1iMzQwODFjNTk3YWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fxhLUDVtttSrzNV2rKEH25L-_B67kBmhpsUnkW6G5yk" alt="">
+
+    <button routerLink="Buscar" class="btn btn-danger mx-2">Buscar</button>
+    <button routerLink="/login" class="btn btn-danger mx-2">Logout</button>
+    
+    
+
+    
+    <div class="container">
+
+
+        
+        
+
+
+        <div class="card" *ngFor="let dato of datosPokemon">
+        <app-cards [datoPokemon]="dato"></app-cards>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
